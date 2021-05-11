@@ -105,7 +105,7 @@ h1 {
         background-image: url("../images/icons/icons.png");
     }
     50% {
-        transform: translateY(15px);
+        transform: translateY(330px);
         background-image: url("../images/icons/icons2.png");
     }
 }
