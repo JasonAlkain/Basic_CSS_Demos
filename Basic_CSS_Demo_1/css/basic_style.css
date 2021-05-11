@@ -70,6 +70,11 @@ h1 {
 
 .container .square:nth-child(-n+4):hover {
     background-image: url("../images/icons/icons2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .square:nth-child(1):hover {
@@ -90,15 +95,17 @@ h1 {
 
 
 /* ---------------------------------------------------
-    Animation handler
+    Animation Effect
 --------------------------------------------------- */
 
 @keyframes race {
     0%,
     100% {
         transform: translateY(0px);
+        background-image: url("../images/icons/icons.png");
     }
     50% {
-        transform: translateY(30px);
+        transform: translateY(15px);
+        background-image: url("../images/icons/icons2.png");
     }
 }
