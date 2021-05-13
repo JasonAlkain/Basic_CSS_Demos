@@ -206,7 +206,7 @@ section {
     CONTACT SECTION STYLES
 ========================================*/
 
-.felx-container {
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
